@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  width: 90%;
+  margin: 30px auto;
+  font-family: sans-serif;
+}
+
+ul.gallery {
+	list-style: none;
+	padding: 0;
+}
+ul.gallery li {
+	display: inline-block;
+	width: calc(50% - 8px);
+	margin-right:8px;
+	margin-bottom: 8px;
+	vertical-align: top;
+}
+ul.gallery img {
+	display: block;
+	width: 100%;
+}
+ul.gallery li:nth-of-type(2n) {
+	margin-right: 0;
+}
+
+@media screen and (min-width: 50em) {
+ul.gallery li {
+    width: calc(25% - 20px);
+  }
+  
+ul.gallery li:nth-of-type(2n) {
+    margin-right: 8px;
+  }
+  
+ul.gallery li:nth-of-type(4n) {
+    margin-right: 0;
+  }
+}
+
+.gallery-flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+	
+a:hover img {
+  transform: scale(1.03);
+}
+
+img {
+  max-width: 100%;
+  transition: transform .2s ease-in-out;
+}
+
+</style>
+</head>
+<body>
+
+<h2>Responsive Image Gallery</h2>
+<h4>Resize the browser window to see the effect.</h4>
+<p>You have two types of class using flex and inline-block. Default used inline-block css. To make it flex just use the ul class = "gallery gallery-flex".</p>
+
+
+<ul class="gallery">
+	<li>
+    	<a href="">
+      		<img src="http://placehold.it/600x400" alt="Placehollder" >
+		</a>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, aliquid debitis aperiam ea eligendi hic cupiditate sequi veniam quidem sunt neque eaque minus distinctio. Quos, iure earum accusantium nulla. Deserunt?
+        </p>
+    </li>
+	<li>
+    	<a href="">
+      		<img src="http://placehold.it/600x400" alt="Placehollder" >
+		</a>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, aliquid debitis aperiam ea eligendi hic cupiditate sequi veniam quidem sunt neque eaque minus distinctio. Quos, iure earum accusantium nulla. Deserunt?
+        </p>
+    </li>
+	<li>
+    	<a href="">
+      		<img src="http://placehold.it/600x400" alt="Placehollder" >
+		</a>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, aliquid debitis aperiam ea eligendi hic cupiditate sequi veniam quidem sunt neque eaque minus distinctio. Quos, iure earum accusantium nulla. Deserunt?
+        </p>
+    </li>
+	<li>
+    	<a href="">
+      		<img src="http://placehold.it/600x400" alt="Placehollder" >
+		</a>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, alulla. Deserunt?
+        </p>
+    </li>
+	<li>
+    	<a href="">
+      		<img src="http://placehold.it/600x400" alt="Placehollder" >
+		</a>
+		<p>Lorem ips minus distinctio. Quos, iure earum accusantium nulla. Deserunt?
+        </p>
+    </li>
+	<li>
+    	<a href="">
+      		<img src="http://placehold.it/600x400" alt="Placehollder" >
+		</a>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, aliquid debitis aperiam ea eligendi hic cupiditate sequi veniam quidem sunt neque eaque minus distinctio. Quos, iure earum accusantium nulla. Deserunt?
+        </p>
+    </li>
+	<li>
+    	<a href="">
+      		<img src="http://placehold.it/600x400" alt="Placehollder" >
+		</a>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, aliquid debitis aperiam ea eligendi hic cupiditate sequi veniam quidem sunt neque eaque minus distinctio. Quos, iure earum accusantium nulla. Deserunt?
+        </p>
+     </li>
+ 	<li>
+    	<a href="">
+      		<img src="http://placehold.it/600x400" alt="Placehollder" >
+		</a>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, aliquidsunt neque eaque minus distinctio. Quos, iure earum accusantium nulla. Deserunt?
+        </p>
+     </li>
+ 	<li>
+    	<a href="">
+      		<img src="http://placehold.it/600x400" alt="Placehollder" >
+		</a>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, aliquid debitis aperiam ea eligendi hic cupiditate sequi veniam quidem sunt neque eaque minus distinctio. Quos, iure earum accusantium nulla. Deserunt?
+        </p>
+     </li>
+ 	<li>
+    	<a href="">
+      		<img src="http://placehold.it/600x400" alt="Placehollder" >
+		</a>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. E, iure earum accusantium nulla. Deserunt?
+        </p>
+     </li>
+ 	<li>
+    	<a href="">
+      		<img src="http://placehold.it/600x400" alt="Placehollder" >
+		</a>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, aliquid debitis aperiam ea eligendi hic cupiditate sequi veniam quidem sunt neque eaque minusdfsdf sdf sdf sdf sdf  sd fdsf sf sfs ss ds distinctio. Quos, iure earum accusantium nulla. Deserunt?
+        </p>
+     </li>
+     
+</ul>
+
+<div class="clearfix"></div>
+
+
+</body>
+</html>
+
